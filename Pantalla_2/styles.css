@@ -1,0 +1,505 @@
+body {
+    font-family: Roboto Flex;
+    font-weight: SemiBold;
+  }
+  .contenedor {
+    width: 100%;
+    height: 680px;
+    background: url("imagenes/imagenes/fondo.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: relative;
+    overflow: hidden;
+  }
+  .nav_bar {
+    width: 100%;
+    height: 67px;
+    background-color:rgba(244, 157, 25, 0.48) ;
+    position: absolute;
+    overflow: hidden;
+  }
+  .logo {
+    width: 120px;
+    height: 60px;
+    background: url("imagenes/imagenes/logo2.png");
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+  }
+  .personal {
+    width: 100px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 24px;
+    left: 123px;
+    font-size: 15px;
+    opacity: 1;
+    text-align: center;
+  }
+  .Pedidos {
+    width: 91px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 24px;
+    left: 223px;
+    font-size: 16px;
+    opacity: 1;
+    text-align: center;
+  }
+  .MiCuenta {
+    width: 83px;
+    color: rgba(255,255,255,1);
+    position: relative;
+    top: 10px;
+    left: 1100px;
+    font-size: 15px;
+    opacity: 1;
+    text-align: left;
+  }
+  .icono {
+    top: 20px;
+    left: 1110px;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .tabla{
+    width: 95%;
+    height: 481px;
+    opacity: 1;
+    position: absolute;
+    top: 136px;
+    left: 26px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+  }
+  .tabla1 {
+    width: 100%;
+    height: 429px;
+    background: rgba(255,255,255,1);
+    opacity: 1;
+    position: absolute;
+    top: 51px;
+    left: 0px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+  }
+  .pedido1 {
+    width: 100%;
+    height: 27px;
+    opacity: 1;
+    position: absolute;
+    top: 210px;
+    left: 37px;
+    
+  }
+  .pedido2 {
+    width: 100%;
+    height: 35px;
+    opacity: 1;
+    position: absolute;
+    top: 262px;
+    left: 36px;
+    overflow: hidden;
+  }
+  .pedido3 {
+    width: 100%;
+    height: 35px;
+    opacity: 1;
+    position: absolute;
+    top: 311px;
+    left: 36px;
+    overflow: hidden;
+  }
+  .numero {
+    width: 43px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 1px;
+    left: 0px;
+    font-size: 16px;
+    opacity: 1;
+    text-align: center;
+  }
+  .ped {
+    width: 200px;
+    height: 50px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 0px;
+    left: 165px;
+    font-size: 16px;
+    opacity: 1;
+    text-align: left;
+  }
+  .info {
+    width: 126px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 0px;
+    left: 482px;
+    font-size: 16px;
+    opacity: 1;
+    text-align: center;
+  }
+  .est {
+    width: 137px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 4px;
+    left: 960px;
+    font-size: 16px;
+    opacity: 1;
+    text-align: center;
+  }
+  .cont {
+    width: 174px;
+    height: 100px;
+    opacity: 1;
+    position: absolute;
+    top: 66px;
+    left: 26px;
+   
+    border-radius: 8px;
+  }
+  .filtrar {
+    width: 174px;
+    height: 48px;
+    background: rgba(191,179,179,0.4000000059604645);
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  
+  .menu {
+    width: 27px;
+    height: 15px;
+    background: rgba(244,156,25,0.699999988079071);
+    opacity: 1;
+    position: absolute;
+    top: 17px;
+    left: 135px;
+  
+  }
+  .opciones {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    display: none;
+    padding: 10px;
+    background-color: #b43535;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  .opciones li {
+    margin-bottom: 10px;
+  }
+  .menu:hover + .opciones,
+  .opciones:hover {
+    display: block;
+  }
+  
+  
+  
+  .cont2 {
+    width: 234px;
+    height: 48px;
+    opacity: 1;
+    position: absolute;
+    top: 66px;
+    left: 930px;
+    overflow: hidden;
+    border-radius: 8px;
+  }
+  .buscar {
+    width: 171px;
+    color: rgba(0, 0, 0, 0.514);
+    position: absolute;
+    top: 14px;
+    left: 15px;
+    font-size: 16px;
+    opacity: 1;
+    text-align: center;
+  }
+  .buscador {
+    background: rgba(209, 200, 200, 0.4);
+    opacity: 1;
+    position: absolute;
+    top: 13px;
+    left: 190px;
+    opacity: 0.5;
+  }
+  .buscar1 {
+    width: 230px;
+    height: 48px;
+    background: rgba(191,179,179,0.4000000059604645);
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+  }
+  .cont3 {
+    width: 100%;
+    height: 48px;
+    opacity: 1;
+    position: absolute;
+    top: 191px;
+    left: 24px;
+    overflow: hidden;
+  }
+  .nav_bar3 {
+    width: 96%;
+    height: 48px;
+    background: rgba(191,179,179,0.4000000059604645);
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    overflow: hidden;
+  }
+  
+  .estado {
+    width: 160px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 13px;
+    left: 481px;
+    font-size: 16px;
+    opacity: 1;
+    text-align: center;
+  }
+  .pedido {
+    width: 113px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 13px;
+    left: 180px;
+    font-size: 16px;
+    opacity: 1;
+    text-align: center;
+  }
+  .cliente{
+
+    
+      width: 113px;
+      color: rgba(0,0,0,1);
+      position: absolute;
+      top: 13px;
+      left: 700px;
+      font-size: 16px;
+      opacity: 1;
+      text-align: center;
+    
+
+
+  }
+  .salida{
+
+
+    width: 225px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 13px;
+    left: 850px;
+    font-size: 16px;
+    opacity: 1;
+    text-align: center;
+
+
+  }
+  .npedido {
+    width: 92px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 13px;
+    left: 13px;
+    font-size: 16px;
+    opacity: 1;
+    text-align: center;
+  }
+  .nav_bar2 {
+    width: 100%;
+    height: 51px;
+    background: rgba(255,255,255,0.47999998927116394);
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+  }
+  .X{
+    width: 29px;
+    color: rgba(133,129,129,1);
+    position: absolute;
+    top: 9px;
+    left: 1140px;
+    font-size: 24px;
+    opacity: 1;
+    text-align: center;
+  }
+  .pedidos1 {
+    width: 91px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 17px;
+    left: 20px;
+    font-size: 16px;
+    opacity: 1;
+    text-align: center;
+  }
+  
+  .filtrarest {
+    width: 191px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 216px;
+    left: 30px;
+    font-size: 16px;
+    opacity: 1;
+    text-align: center;
+  }
+  .entrega1{
+
+    
+      width: 120px;
+      color: rgba(0,0,0,1);
+      position: relative;
+      
+      left: 520px;
+      font-size: 16px;
+      opacity: 1;
+      text-align: center;
+      border-color: rgb(0, 255, 85);
+      border-radius: 5%;
+    
+  }
+  .boton {
+    width: 155px;
+    height: 36px;
+    opacity: 1;
+    position: absolute;
+    top: 415px;
+    left: 970px;
+    overflow: hidden;
+    background: rgba(244,156,25,0.699999988079071);
+    border-radius: 10px;
+  }
+  .finalizar {
+    width: 180px;
+    color: rgba(255,255,255,1);
+    position:relative;
+    top: 8px;
+    left: 35px;
+    font-size: 22px;
+    opacity: 1;
+    text-align: center;
+  }
+  .desplegableEntrega1{
+
+    position: relative;
+    
+    left: 8px;
+
+
+
+  }
+  button.verMP{
+    position: relative;
+    left: 575px;
+    height: 28px;
+    width: 180px; 
+  }
+
+  button.verMP1{
+    position: relative;
+    left: 575px;
+    height: 28px;
+    width: 180px;
+    border-color: rgb(0, 255, 85);
+  }
+
+  button.verMP2{
+    position: relative;
+    left: 575px;
+    height: 28px;
+    width: 180px;
+    border-color: rgb(0, 255, 85);
+  }
+
+  .salidaBtn {
+    width: 150px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    
+    left: 860px;
+    font-size: 16px;
+    opacity: 1;
+    text-align: center;
+    margin-left: 70px;
+  }
+
+  .salidaBtn1 {
+    width: 150px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    
+    left: 860px;
+    font-size: 16px;
+    opacity: 1;
+    text-align: center;
+    margin-left: 70px;
+    border-color: rgb(0, 255, 85);
+  }
+  .nuevoBtn{
+
+    
+      position: relative;
+      background-color: rgb(96, 241, 96);
+      color: white;
+      height: 49px;
+      width: 97px;
+      top: 36px;
+      border-radius: 10px;
+      font-size: 16px;
+      border-color: rgb(75, 240, 75);
+
+
+  }
+  .promociones{
+
+
+    position: relative;
+    left: 229px;
+    top: 10px;
+    color: white;
+
+
+  }
+  .perso{
+
+    position: relative;
+    left: 268px;
+    top: 10px;
+    color: white;
+
+  }
+  .clien{
+
+
+    position: relative;
+    left: 313px;
+    top: 9px;
+    color: white;
+
+  }
